@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="TwoPointer.Algo.Test/TwoPointer.Algo.Test.csproj" />
+  <Project Path="TwoPointer.Algo/TwoPointer.Algo.csproj" />
+</Solution>

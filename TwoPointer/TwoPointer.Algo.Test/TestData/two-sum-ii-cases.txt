@@ -1,0 +1,4 @@
+# Mỗi dòng: numbers | target | expected   (số cách nhau bằng dấu cách; dòng bắt đầu bằng # bị bỏ qua)
+# Tự thêm ca biên bạn nghĩ ra vào đây
+1 2 3 4 4 9 56 90 | 8 | 4 5
+5 25 75 | 100 | 2 3
