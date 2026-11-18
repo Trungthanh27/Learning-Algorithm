@@ -143,7 +143,7 @@ The following were verified and are correct in the files:
 3. **Move #892:** Moved into Section 3 (Geometry) in `math-and-geometry-leetcode-problems.md` and added to Basics study order.
 4. **Study order updates:** Added omitted problems across Dynamic Programming (#44), Heaps (#480, #857), Tries (#79, #677, #1032), Backtracking (#52), Hash Maps (#523, #974), and Fast & Slow Pointers (#392, #61, #189, #1721).
 5. **TwoPointer & Git tracking:** Cleaned up empty `TwoPointer/` build folder; staged and committed all 19 topic markdown files.
-6. **Top-level README:** Excluded as requested.
+6. **Top-level README:** Created `README.md` indexing all 19 topics and structured with the user's custom learning roadmap.
 7. **Git hygiene:** Added `*.pdf` rule to `.gitignore` to prevent committing future binary PDF files.
 
 ---
