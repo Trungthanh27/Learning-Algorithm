@@ -1,0 +1,16 @@
+# Is Palindrome Valid (Chapter 1)
+# Each line: s | expected
+
+# Examples from the book
+"a dog! a panic in a pagoda" | true
+"abc123" | false
+
+# Edge cases from the book
+"" | true
+"a" | true
+"aa" | true
+"ab" | false
+"!, (?)" | true
+"12.02.2021" | true
+"21.02.2021" | false
+"hello, world!" | false
