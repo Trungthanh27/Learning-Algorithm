@@ -1,4 +1,4 @@
-# LeetCode Problems Using the Two-Pointer Technique
+# LeetCode Problems Using Two Pointers
 
 **Total: 46 problems** — 21 Easy, 23 Medium, 2 Hard
 
