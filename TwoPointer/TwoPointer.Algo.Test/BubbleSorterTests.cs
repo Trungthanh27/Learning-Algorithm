@@ -1,3 +1,6 @@
+using TwoPointer.Algo;
+using Xunit;
+
 namespace TwoPointer.Algo.Test;
 
 public class BubbleSorterTests
@@ -32,6 +35,11 @@ public class BubbleSorterTests
     public static TheoryData<int[], int[]> CasesFromFile()
     {
         var path = Path.Combine(AppContext.BaseDirectory, "TestData", "bubble-sort-cases.txt");
+        if (!File.Exists(path))
+        {
+            throw new FileNotFoundException($"Test data file not found at: {path}");
+        }
+
         var data = new TheoryData<int[], int[]>();
 
         foreach (var raw in File.ReadLines(path))
@@ -41,6 +49,9 @@ public class BubbleSorterTests
                 continue;
 
             var parts = line.Split('|');
+            if (parts.Length < 2)
+                continue;
+
             data.Add(ParseNumbers(parts[0]), ParseNumbers(parts[1]));
         }
 
@@ -50,3 +61,4 @@ public class BubbleSorterTests
     private static int[] ParseNumbers(string text) =>
         text.Split(' ', StringSplitOptions.RemoveEmptyEntries).Select(int.Parse).ToArray();
 }
+
